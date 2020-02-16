@@ -1,1 +1,3 @@
 print("demo")
+print(".")
+
