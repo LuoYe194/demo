@@ -1,7 +1,3 @@
-print("demo")
-print(".")
-
-
 def min(a, b):
     if a < b:
         return a
