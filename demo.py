@@ -5,4 +5,4 @@ def findMax(L):
             max = n
     return max
 
-print(findMax([312, 3213, 213, 312, 32]))
+print(findMax([312, 33, 213, 312, 32]))
