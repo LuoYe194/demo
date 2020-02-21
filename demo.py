@@ -1,14 +1,8 @@
-def min(a, b):
-    if a < b:
-        return a
-    return b
+def findMax(L):
+    max = L[0]
+    for n in L:
+        if n > max:
+            max = n
+    return max
 
-print(min(1, 2))
-
-def max(a, b):
-    if a > b:
-        return a
-    return b
-
-print(max(1, 2))
-
+print(findMax([312, 3213, 213, 312, 32]))
