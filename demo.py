@@ -5,4 +5,9 @@ def findMax(L):
             max = n
     return max
 
-print(findMax([312, 33, 213, 312, 32]))
+def findMin(L):
+    min = L[0]
+    for n in L:
+        if n < L:
+            min = n
+    return min
